@@ -1,0 +1,26 @@
+name: Deploy built files
+env:
+  CI: false
+  GITHUB_USERNAME: ${{ github.repository_owner }}
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.APP_DEPLOY_TOKEN }} 
+  USE_GITHUB_DATA: "true"
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 12 * * 1" 
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2 
+        with:
+          persist-credentials: false
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN : ${{ secrets.APP_DEPLOY_TOKEN }} # This is provided by GitHub.
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
