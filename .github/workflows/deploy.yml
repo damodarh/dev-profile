@@ -1,4 +1,4 @@
-name: Deploy built files
+name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
@@ -14,11 +14,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v2 
         with:
           persist-credentials: false
-      - name: deploy
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN : ${{ secrets.APP_DEPLOY_TOKEN }} # This is provided by GitHub.
