@@ -1,9 +1,6 @@
 name: Build and Deploy
 env:
   CI: false
-  GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY }} 
-  USE_GITHUB_DATA: "true"
 on:
   push:
     branches:
