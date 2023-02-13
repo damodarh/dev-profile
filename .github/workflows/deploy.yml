@@ -21,6 +21,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          DEPLOY_KEY : ${{ secrets.DEPLOY_KEY }} # This is provided by GitHub.
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }} # This is provided by GitHub.
+          BASE_BRANCH: master
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy
