@@ -1,4 +1,9 @@
 name: Build and Deploy
+env:
+  CI: false
+  GITHUB_USERNAME: ${{ github.repository_owner }}
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY }} 
+  USE_GITHUB_DATA: "true"
 on:
   push:
     branches:
@@ -13,8 +18,9 @@ jobs:
         uses: actions/checkout@v2 
         with:
           persist-credentials: false
-      - name: Deploy
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          GITHUB_TOKEN : ${{ secrets.DEPLOY_KEY }} # This is provided by GitHub.
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy
