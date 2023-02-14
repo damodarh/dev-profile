@@ -2,14 +2,14 @@ name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }} 
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.APP_DEPLOY_TOKEN }} 
   USE_GITHUB_DATA: "true"
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: "0 23 * * 0" 
+    - cron: "0 12 * * 1" 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -21,7 +21,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }} # This is provided by GitHub.
-          BASE_BRANCH: master #branch to deploy from.
+          GITHUB_TOKEN : ${{ secrets.APP_DEPLOY_TOKEN }} # This is provided by GitHub.
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy
+          FOLDER: build # The folder the action should deploy.
