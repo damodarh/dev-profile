@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/dev-profile/static/css/main.7aaaa7d0.chunk.css",
-    "main.js": "/dev-profile/static/js/main.00536411.chunk.js",
-    "main.js.map": "/dev-profile/static/js/main.00536411.chunk.js.map",
-    "runtime-main.js": "/dev-profile/static/js/runtime-main.e204141d.js",
-    "runtime-main.js.map": "/dev-profile/static/js/runtime-main.e204141d.js.map",
-    "static/js/2.3834c8a6.chunk.js": "/dev-profile/static/js/2.3834c8a6.chunk.js",
-    "static/js/2.3834c8a6.chunk.js.map": "/dev-profile/static/js/2.3834c8a6.chunk.js.map",
+    "main.js": "/dev-profile/static/js/main.d755383e.chunk.js",
+    "main.js.map": "/dev-profile/static/js/main.d755383e.chunk.js.map",
+    "runtime-main.js": "/dev-profile/static/js/runtime-main.71a5c1b3.js",
+    "runtime-main.js.map": "/dev-profile/static/js/runtime-main.71a5c1b3.js.map",
+    "static/js/2.dd5eb071.chunk.js": "/dev-profile/static/js/2.dd5eb071.chunk.js",
+    "static/js/2.dd5eb071.chunk.js.map": "/dev-profile/static/js/2.dd5eb071.chunk.js.map",
     "static/css/3.56619fb5.chunk.css": "/dev-profile/static/css/3.56619fb5.chunk.css",
-    "static/js/3.001df15d.chunk.js": "/dev-profile/static/js/3.001df15d.chunk.js",
-    "static/js/3.001df15d.chunk.js.map": "/dev-profile/static/js/3.001df15d.chunk.js.map",
+    "static/js/3.8d0fa5ad.chunk.js": "/dev-profile/static/js/3.8d0fa5ad.chunk.js",
+    "static/js/3.8d0fa5ad.chunk.js.map": "/dev-profile/static/js/3.8d0fa5ad.chunk.js.map",
     "static/css/4.a9284ac8.chunk.css": "/dev-profile/static/css/4.a9284ac8.chunk.css",
-    "static/js/4.ae75219d.chunk.js": "/dev-profile/static/js/4.ae75219d.chunk.js",
-    "static/js/4.ae75219d.chunk.js.map": "/dev-profile/static/js/4.ae75219d.chunk.js.map",
+    "static/js/4.567a1b77.chunk.js": "/dev-profile/static/js/4.567a1b77.chunk.js",
+    "static/js/4.567a1b77.chunk.js.map": "/dev-profile/static/js/4.567a1b77.chunk.js.map",
     "index.html": "/dev-profile/index.html",
-    "precache-manifest.810c73af107eecc407ec22d410a8c7ec.js": "/dev-profile/precache-manifest.810c73af107eecc407ec22d410a8c7ec.js",
+    "precache-manifest.e34e6bc75d1ed71c31ae27e7830f3664.js": "/dev-profile/precache-manifest.e34e6bc75d1ed71c31ae27e7830f3664.js",
     "service-worker.js": "/dev-profile/service-worker.js",
     "static/css/3.56619fb5.chunk.css.map": "/dev-profile/static/css/3.56619fb5.chunk.css.map",
     "static/css/4.a9284ac8.chunk.css.map": "/dev-profile/static/css/4.a9284ac8.chunk.css.map",
     "static/css/main.7aaaa7d0.chunk.css.map": "/dev-profile/static/css/main.7aaaa7d0.chunk.css.map",
-    "static/js/2.3834c8a6.chunk.js.LICENSE.txt": "/dev-profile/static/js/2.3834c8a6.chunk.js.LICENSE.txt",
+    "static/js/2.dd5eb071.chunk.js.LICENSE.txt": "/dev-profile/static/js/2.dd5eb071.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dev-profile/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/blueYonder.jpg": "/dev-profile/static/media/blueYonder.7c55a719.jpg",
     "static/media/contactMailDark.svg": "/dev-profile/static/media/contactMailDark.51cf7192.svg",
     "static/media/dev-connect.png": "/dev-profile/static/media/dev-connect.ea3ee0f9.png",
     "static/media/developerActivity.svg": "/dev-profile/static/media/developerActivity.59389695.svg",
@@ -34,9 +35,9 @@
     "static/media/v_award.png": "/dev-profile/static/media/v_award.82f82f0b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e204141d.js",
-    "static/js/2.3834c8a6.chunk.js",
+    "static/js/runtime-main.71a5c1b3.js",
+    "static/js/2.dd5eb071.chunk.js",
     "static/css/main.7aaaa7d0.chunk.css",
-    "static/js/main.00536411.chunk.js"
+    "static/js/main.d755383e.chunk.js"
   ]
 }
