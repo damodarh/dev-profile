@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dev-profile/static/css/main.7aaaa7d0.chunk.css",
-    "main.js": "/dev-profile/static/js/main.9d7e0e41.chunk.js",
-    "main.js.map": "/dev-profile/static/js/main.9d7e0e41.chunk.js.map",
+    "main.js": "/dev-profile/static/js/main.0367a9d1.chunk.js",
+    "main.js.map": "/dev-profile/static/js/main.0367a9d1.chunk.js.map",
     "runtime-main.js": "/dev-profile/static/js/runtime-main.71a5c1b3.js",
     "runtime-main.js.map": "/dev-profile/static/js/runtime-main.71a5c1b3.js.map",
     "static/js/2.c16478b2.chunk.js": "/dev-profile/static/js/2.c16478b2.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.567a1b77.chunk.js": "/dev-profile/static/js/4.567a1b77.chunk.js",
     "static/js/4.567a1b77.chunk.js.map": "/dev-profile/static/js/4.567a1b77.chunk.js.map",
     "index.html": "/dev-profile/index.html",
-    "precache-manifest.d7149235692fd40838c28b06c1724a09.js": "/dev-profile/precache-manifest.d7149235692fd40838c28b06c1724a09.js",
+    "precache-manifest.e12992200f98345dfc8edb79ea388fd7.js": "/dev-profile/precache-manifest.e12992200f98345dfc8edb79ea388fd7.js",
     "service-worker.js": "/dev-profile/service-worker.js",
     "static/css/3.56619fb5.chunk.css.map": "/dev-profile/static/css/3.56619fb5.chunk.css.map",
     "static/css/4.a9284ac8.chunk.css.map": "/dev-profile/static/css/4.a9284ac8.chunk.css.map",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.71a5c1b3.js",
     "static/js/2.c16478b2.chunk.js",
     "static/css/main.7aaaa7d0.chunk.css",
-    "static/js/main.9d7e0e41.chunk.js"
+    "static/js/main.0367a9d1.chunk.js"
   ]
 }
