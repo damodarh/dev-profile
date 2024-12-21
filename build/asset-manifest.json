@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/dev-profile/static/css/main.7aaaa7d0.chunk.css",
-    "main.js": "/dev-profile/static/js/main.0367a9d1.chunk.js",
-    "main.js.map": "/dev-profile/static/js/main.0367a9d1.chunk.js.map",
+    "main.js": "/dev-profile/static/js/main.4214caa5.chunk.js",
+    "main.js.map": "/dev-profile/static/js/main.4214caa5.chunk.js.map",
     "runtime-main.js": "/dev-profile/static/js/runtime-main.71a5c1b3.js",
     "runtime-main.js.map": "/dev-profile/static/js/runtime-main.71a5c1b3.js.map",
-    "static/js/2.c16478b2.chunk.js": "/dev-profile/static/js/2.c16478b2.chunk.js",
-    "static/js/2.c16478b2.chunk.js.map": "/dev-profile/static/js/2.c16478b2.chunk.js.map",
+    "static/js/2.dd5eb071.chunk.js": "/dev-profile/static/js/2.dd5eb071.chunk.js",
+    "static/js/2.dd5eb071.chunk.js.map": "/dev-profile/static/js/2.dd5eb071.chunk.js.map",
     "static/css/3.56619fb5.chunk.css": "/dev-profile/static/css/3.56619fb5.chunk.css",
     "static/js/3.8d0fa5ad.chunk.js": "/dev-profile/static/js/3.8d0fa5ad.chunk.js",
     "static/js/3.8d0fa5ad.chunk.js.map": "/dev-profile/static/js/3.8d0fa5ad.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.567a1b77.chunk.js": "/dev-profile/static/js/4.567a1b77.chunk.js",
     "static/js/4.567a1b77.chunk.js.map": "/dev-profile/static/js/4.567a1b77.chunk.js.map",
     "index.html": "/dev-profile/index.html",
-    "precache-manifest.e12992200f98345dfc8edb79ea388fd7.js": "/dev-profile/precache-manifest.e12992200f98345dfc8edb79ea388fd7.js",
+    "precache-manifest.ba8e6db53ce9a199b42f7f0b1a832e6b.js": "/dev-profile/precache-manifest.ba8e6db53ce9a199b42f7f0b1a832e6b.js",
     "service-worker.js": "/dev-profile/service-worker.js",
     "static/css/3.56619fb5.chunk.css.map": "/dev-profile/static/css/3.56619fb5.chunk.css.map",
     "static/css/4.a9284ac8.chunk.css.map": "/dev-profile/static/css/4.a9284ac8.chunk.css.map",
     "static/css/main.7aaaa7d0.chunk.css.map": "/dev-profile/static/css/main.7aaaa7d0.chunk.css.map",
-    "static/js/2.c16478b2.chunk.js.LICENSE.txt": "/dev-profile/static/js/2.c16478b2.chunk.js.LICENSE.txt",
+    "static/js/2.dd5eb071.chunk.js.LICENSE.txt": "/dev-profile/static/js/2.dd5eb071.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dev-profile/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/blueYonder.jpg": "/dev-profile/static/media/blueYonder.7c55a719.jpg",
     "static/media/contactMailDark.svg": "/dev-profile/static/media/contactMailDark.51cf7192.svg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.71a5c1b3.js",
-    "static/js/2.c16478b2.chunk.js",
+    "static/js/2.dd5eb071.chunk.js",
     "static/css/main.7aaaa7d0.chunk.css",
-    "static/js/main.0367a9d1.chunk.js"
+    "static/js/main.4214caa5.chunk.js"
   ]
 }
